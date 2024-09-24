@@ -2,4 +2,4 @@
 
 Chose the company you want to learn more about:
 
-- [Oligo](docs/ccl/portfolio/oligo)
+- [Oligo](docs/ccl/portfolio/oligo/)
