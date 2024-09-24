@@ -15,10 +15,10 @@ runs:
         
         tmp_folder=/tmp        
                         
-#        cd $tmp_folder
-#        git clone --branch dev https://github.com/the-cyber-boardroom/cbr-content.git /tmp/cbr-content
-#
-#        cp -R $tmp_folder/cbr-content/cbr_content/* $python_path__cbr_content
+        # cd $tmp_folder
+        # git clone --branch dev https://github.com/the-cyber-boardroom/cbr-content.git /tmp/cbr-content
+        #
+        # cp -R $tmp_folder/cbr-content/cbr_content/* $python_path__cbr_content
 
         cd $tmp_folder
         git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--ccl.git /tmp/cbr-custom--ccl
