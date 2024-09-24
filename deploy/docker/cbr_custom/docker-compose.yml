@@ -5,16 +5,17 @@ services:
       dockerfile: ./deploy/docker/cbr_custom/Dockerfile
 
     platform: linux/amd64
-    container_name: cbr_custom
+    container_name: cbr_custom_ccl
     tty: true
     environment:
       - PORT=3000
 
     ports:
-      - "5112:3000"
+      - "5115:3000"
     volumes:
       - ../../../cbr_custom/custom:/app/custom
       - ./cbr_custom__run_locally.sh:/app/cbr_custom__run_locally.sh
+      - ../../../cbr_custom/custom/cbr_content/en/web-pages/ccl:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/ccl-local
 
     pull_policy: always
 
