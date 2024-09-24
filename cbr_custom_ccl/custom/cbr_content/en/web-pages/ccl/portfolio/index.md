@@ -2,9 +2,9 @@
 
 Chose the company you want to learn more about:
 
-- [Oligo](docs/ccl/portfolio/oligo/)
-- [Pynt](docs/ccl/portfolio/pynt/)
-- [Vaultree](docs/ccl/portfolio/vaultree/) 
+- [Oligo](docs/ccl/portfolio/oligo/oligo-chat-bot)
+- [Pynt](docs/ccl/portfolio/pynt/pynt-chat-bot)
+- [Vaultree](docs/ccl/portfolio/vaultree/vaultree-chat-bot) 
 ---
 - [Enso](docs/ccl/portfolio/enso/)
 - [Oligo](docs/ccl/portfolio/oligo/)
