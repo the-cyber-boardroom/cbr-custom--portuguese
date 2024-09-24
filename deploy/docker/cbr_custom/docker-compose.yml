@@ -13,9 +13,10 @@ services:
     ports:
       - "5115:3000"
     volumes:
-      - ../../../cbr_custom/custom:/app/custom
+      - ../../../cbr_custom_ccl/custom:/app/custom
       - ./cbr_custom__run_locally.sh:/app/cbr_custom__run_locally.sh
-      - ../../../cbr_custom/custom/cbr_content/en/web-pages/ccl:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/ccl-local
+      - ../../../cbr_custom_ccl/custom/cbr_content/en/web-pages/ccl:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/ccl-local
+      - ../../../cbr_custom_ccl/custom/cbr_static/assets/ccl:/usr/local/lib/python3.12/site-packages/cbr_static/assets/ccl
 
     pull_policy: always
 
