@@ -11,7 +11,7 @@ services:
       - PORT=3000
 
     ports:
-      - "3000"
+      - "5115:3000"
     volumes:
       - ../../../cbr_custom_portuguese/custom:/app/custom
       - ./cbr_custom__run_locally.sh:/app/cbr_custom__run_locally.sh
