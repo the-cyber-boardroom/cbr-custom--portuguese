@@ -4,7 +4,7 @@ on:
     types: [ deploy-cbr-custom-dev ]
   push:
     branches:
-      - dev
+      - dev__disabled
 
 env:
   GIT__BRANCH                     : 'dev'
