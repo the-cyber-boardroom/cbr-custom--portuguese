@@ -9,17 +9,19 @@ services:
     tty: true
     environment:
       - PORT=3000
-
     ports:
       - "5115:3000"
     volumes:
       - ../../../cbr_custom_portuguese/custom:/app/custom
       - ./cbr_custom__run_locally.sh:/app/cbr_custom__run_locally.sh
+      - ../../../cbr_custom_portuguese/custom/cbr_website_beta/apps/templates/includes/home.html:/usr/local/lib/python3.12/site-packages/cbr_website_beta/apps/templates/includes/home.html
       - ../../../cbr_custom_portuguese/custom/cbr_content/en/web-pages/portuguese:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-pages/portuguese
+      - ../../../cbr_custom_portuguese/custom/cbr_content/en/web-site/:/usr/local/lib/python3.12/site-packages/cbr_content/en/web-site
       - ../../../cbr_custom_portuguese/custom/cbr_static/assets/portuguese:/usr/local/lib/python3.12/site-packages/cbr_static/assets/portuguese
 
     pull_policy: always
-
+    env_file:
+      - .env
     entrypoint: ["./cbr_custom__run_locally.sh"]
 
 
