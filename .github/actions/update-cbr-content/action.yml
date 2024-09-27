@@ -21,9 +21,9 @@ runs:
         # cp -R $tmp_folder/cbr-content/cbr_content/* $python_path__cbr_content
 
         cd $tmp_folder
-        git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--ccl.git /tmp/cbr-custom--ccl
+        git clone --branch dev https://github.com/the-cyber-boardroom/cbr-custom--portuguese.git /tmp/cbr-custom--portuguese
                 
-        cp -Rv $tmp_folder/cbr-custom--ccl/cbr_custom_ccl/custom/* $python_packages
+        cp -Rv $tmp_folder/cbr-custom--portuguese/cbr_custom_portuguese/custom/* $python_packages
 
 
         
