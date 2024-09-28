@@ -5,7 +5,7 @@ Here are good chats to check out
 - [PT as a language - chat 1](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-09-27/10/3e97cd71-bfee-4c3a-912f-158411b04d9b/5453922b-f155-41d2-9c36-597c57f19f45)
 
 
-Teste AAAAA Teste BBBB Teste CCCCCC Teste DDDDD Teste Teste 5
+Teste AAAAA Teste BBBB Teste CCCCCC Teste DDDDD Teste EEEEEE Teste 5
 
 ## talk about Portuguese content
 
