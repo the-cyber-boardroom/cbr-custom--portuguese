@@ -24,11 +24,16 @@ env:
 jobs:
 
   update-website-content:
+    name   : Update Website Content
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Git Update Current Branch
+        uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__update_branch@dev
+
       - name: cbr-custom-update-zip-file
-        uses: the-cyber-boardroom/cbr-deploy-custom-sites/.github/actions/cbr-custom-update-zip-file
+        uses: the-cyber-boardroom/cbr-deploy-custom-sites/.github/actions/cbr-custom-update-zip-file@dev
 
   increment-tag:
     if: False
