@@ -1,5 +1,5 @@
-name: 'Test Action'
-description: 'Test Action'
+name: 'Create or Update CBR Custom site lambda definition'
+description: 'Create or Update CBR Custom site lambda definition'
 
 runs:
   using: 'composite'

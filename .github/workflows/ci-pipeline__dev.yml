@@ -29,9 +29,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Git Update Current Branch
-        uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__update_branch@dev
-
       - name: cbr-custom-update-zip-file
         uses: the-cyber-boardroom/cbr-deploy-custom-sites/.github/actions/cbr-custom-update-zip-file@dev
 
@@ -45,23 +42,5 @@ jobs:
         uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/git__increment-tag@dev
         with:
           release_type: ${{ env.RELEASE_TYPE }}
-
-
-#  deploy-cbr-custom:
-#    timeout-minutes: 5
-#    name: "Deploy CBR - CBR Custom - Portuguese"
-#    runs-on: ubuntu-latest
-#    env:
-#      S3_DEV__VERSION   : 'dev__cbr_custom_portuguese'
-#      FOLDER__CBR_CUSTOM: "./cbr_custom_portuguese"
-#    steps:
-#      - name: Checkout repository
-#        uses: actions/checkout@v4
-#        with:
-#          ref: ${{ env.GIT__BRANCH }}
-#      - name: Deploy Custom code
-#        uses: ./.github/actions/deploy-cbr-dev-site
-#    needs:
-#      - increment-tag
-
-
+    needs:
+      - update-website-content
