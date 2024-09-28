@@ -5,7 +5,7 @@ on:
     types: [ deploy-cbr-custom-dev ]
   push:
     branches:
-      - dev__disabled
+      - dev
 
 env:
   GIT__BRANCH                     : 'dev'
@@ -23,7 +23,15 @@ env:
 
 jobs:
 
+  update-website-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cbr-custom-update-zip-file
+        uses: the-cyber-boardroom/cbr-deploy-custom-sites/.github/actions/cbr-custom-update-zip-file
+
   increment-tag:
+    if: False
     name: Increment Tag - DEV
     runs-on: ubuntu-latest
     steps:
@@ -33,21 +41,22 @@ jobs:
         with:
           release_type: ${{ env.RELEASE_TYPE }}
 
-  deploy-cbr-custom:
-    timeout-minutes: 5
-    name: "Deploy CBR - CBR Custom - Portuguese"
-    runs-on: ubuntu-latest
-    env:
-      S3_DEV__VERSION   : 'dev__cbr_custom_portuguese'
-      FOLDER__CBR_CUSTOM: "./cbr_custom_portuguese"
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ env.GIT__BRANCH }}
-      - name: Deploy Custom code
-        uses: ./.github/actions/deploy-cbr-dev-site
-    needs:
-      - increment-tag
+
+#  deploy-cbr-custom:
+#    timeout-minutes: 5
+#    name: "Deploy CBR - CBR Custom - Portuguese"
+#    runs-on: ubuntu-latest
+#    env:
+#      S3_DEV__VERSION   : 'dev__cbr_custom_portuguese'
+#      FOLDER__CBR_CUSTOM: "./cbr_custom_portuguese"
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v4
+#        with:
+#          ref: ${{ env.GIT__BRANCH }}
+#      - name: Deploy Custom code
+#        uses: ./.github/actions/deploy-cbr-dev-site
+#    needs:
+#      - increment-tag
 
 
