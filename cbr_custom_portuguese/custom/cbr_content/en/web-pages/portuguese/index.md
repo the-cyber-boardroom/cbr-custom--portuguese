@@ -10,7 +10,7 @@ live edit for Loom video!!! :)
 ## talk about Portuguese content
 
 {{chatbot   
-    name = "Portuguese Content" 
+    name = "Portuguese Chat Bot!" 
     initial_message = "Hi, ask me about Portuguese content" 
     initial_prompt = "Hello"
     system_prompt = "Only talk about Portuguese content, and only reply in Portuguese"
