@@ -27,7 +27,7 @@ env:
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__LAMBDA_NAME   : 'dev__cbr_custom_portuguese'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_KEY        : 'cbr-custom-websites/cbr_website_beta/dev__cbr_custom_portuguese.zip'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_SOURCE_CODE: 'https://github.com/the-cyber-boardroom/cbr-custom--portuguese/archive/refs/heads/dev.zip'
-  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_BASE_PATH   : 'cbr-custom--portuguese-dev/cbr__custom_portuguese/custom/'
+  FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_BASE_PATH  : 'cbr-custom--portuguese-dev/cbr_custom_portuguese/custom/'
 
 jobs:
 
