@@ -5,15 +5,15 @@ Here are good chats to check out
 - [PT as a language - chat 1](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-09-27/10/3e97cd71-bfee-4c3a-912f-158411b04d9b/5453922b-f155-41d2-9c36-597c57f19f45)
 
 
-live edit for Loom video!!! :)
+Tara's first edit!!! :)
 
 ## talk about Portuguese content
 
 {{chatbot   
     name = "Portuguese Chat Bot!" 
     initial_message = "Hi, ask me about Portuguese content" 
-    initial_prompt = "Hello"
-    system_prompt = "Only talk about Portuguese content, and only reply in Portuguese"
+    initial_prompt = "Olá"
+    system_prompt = "Only talk about Portuguese content, and only reply in Portuguese. Vamos là!"
     edit_mode = "false" 
     platform = "Groq (Free)" 
     provider = "Meta" 
