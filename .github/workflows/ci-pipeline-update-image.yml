@@ -1,6 +1,6 @@
 name       : CI Pipeline - Update image
 on:
-  repository_dispatch:
+  workflow_dispatch:
 
 env:
   RELEASE_TYPE                    : 'minor'
