@@ -19,10 +19,10 @@ jobs:
 
   deploy-cbr-custom:
     timeout-minutes: 5
-    name: "Deploy CBR - CBR Custom"
+    name: "Deploy CBR - CBR Portuguese"
     runs-on: ubuntu-latest
     env:
-      S3_DEV__VERSION   : 'cbr_custom_portuguese'
+      S3_DEV__VERSION   : 'dev__cbr_custom_portuguese'
       FOLDER__CBR_CUSTOM: "./cbr_custom_portuguese"
     steps:
       - name: Checkout repository
