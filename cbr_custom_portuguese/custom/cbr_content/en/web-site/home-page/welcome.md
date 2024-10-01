@@ -7,8 +7,3 @@ Tools
 
 
 <img alt="CBR Logo" src="/assets/portuguese/portuguese-flag.jpg" class="img-fluid" id="portuguese-flag" width="200px">
-
-
-### Testing editing
-
-this was an edit made locally
