@@ -6,3 +6,5 @@ action_text: Go
 ---
 
 ... 1st batch of resources will go here...
+
+edited on a mobile:)
