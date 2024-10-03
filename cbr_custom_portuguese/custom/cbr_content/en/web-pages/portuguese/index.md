@@ -7,16 +7,16 @@ Here are good chats to check out
 
 Tara's first edit!!! :)
 
-## talk about Portuguese content
+## Talk about Portuguese content
 
 {{chatbot   
     name = "Portuguese Chat Bot!" 
     initial_message = "Hi, ask me about Portuguese content" 
     initial_prompt = "Olá"
-    system_prompt = "Only talk about Portuguese content, and only reply in Portuguese. Vamos là!"
+    system_prompt = "Só falar de conteúdos portugueses e só responder em português. Vamos là!"
     edit_mode = "false" 
     platform = "Groq (Free)" 
-    provider = "Meta" 
+    provider = "Mistral" 
     model = "llama3-70b-8192"
 }}
 
