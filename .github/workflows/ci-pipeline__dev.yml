@@ -8,16 +8,6 @@ on:
       - dev
 
 env:
-
-  #  PACKAGE_NAME                    : 'cbr_custom_portuguese'
-
-  #  CBR__CUSTOM__ACCOUNT_ID         : '654654216424'
-  #  CBR__CONFIG_FILE                : 'cbr-website.community-cbr-hosted.toml'
-
-  #  CBR__CUSTOM__PATH_CUSTOM_CODE   : "./cbr_custom_portuguese/custom"
-  #  CBR__CUSTOM__PACKAGES_TO_INSTALL: '["cbr_website_beta", "cbr_content", "cbr_static"]'
-  #  S3_DEV__BUCKET                  : "654654216424--cbr-deploy--eu-west-1"
-  #  S3_DEV__PARENT_FOLDER           : "cbr-custom-websites"
   GIT__BRANCH                                     : 'dev'
   AWS_ACCESS_KEY_ID                               : ${{ secrets.AWS_ACCESS_KEY_ID__470426667096     }}
   AWS_SECRET_ACCESS_KEY                           : ${{ secrets.AWS_SECRET_ACCESS_KEY__470426667096 }}
@@ -28,7 +18,9 @@ env:
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__S3_KEY        : 'cbr-custom-websites/cbr_website_beta/dev__cbr_custom_portuguese.zip'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_SOURCE_CODE: 'https://github.com/the-cyber-boardroom/cbr-custom--portuguese/archive/refs/heads/dev.zip'
   FLOW__UPDATE_CBR_CUSTOM_ZIP_FILE__GH_BASE_PATH  : 'cbr-custom--portuguese-dev/cbr_custom_portuguese/custom/'
-
+  CBR__CUSTOM__ACCOUNT_ID                         : '654654216424'
+  CBR__CONFIG_FILE                                : 'cbr-website.community-cbr-hosted.toml'
+  
 jobs:
 
   update-website-content:

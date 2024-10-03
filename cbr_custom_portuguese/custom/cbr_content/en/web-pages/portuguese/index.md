@@ -16,7 +16,7 @@ Tara's first edit!!! :)
     system_prompt = "Só falar de conteúdos portugueses e só responder em português. Vamos là!"
     edit_mode = "false" 
     platform = "Groq (Free)" 
-    provider = "Mistral" 
+    provider = "Meta" 
     model = "llama3-70b-8192"
 }}
 

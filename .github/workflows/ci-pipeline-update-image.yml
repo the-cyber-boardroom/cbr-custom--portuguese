@@ -13,6 +13,8 @@ env:
   CBR__CUSTOM__PACKAGES_TO_INSTALL: '["cbr_content", "cbr_static"]'
   S3_DEV__BUCKET                  : "654654216424--cbr-deploy--eu-west-1"
   S3_DEV__PARENT_FOLDER           : "cbr-custom-websites"
+  CBR__CUSTOM__ACCOUNT_ID         : '654654216424'
+  CBR__CONFIG_FILE                : 'cbr-website.community-cbr-hosted.toml'
 
 jobs:
 
