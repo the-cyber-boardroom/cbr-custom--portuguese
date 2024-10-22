@@ -5,5 +5,5 @@
 
 ## Repo details
 
-![Current Release](https://img.shields.io/badge/release-v0.1.27-blue)
+![Current Release](https://img.shields.io/badge/release-v0.1.28-blue)
 
