@@ -1,6 +1,6 @@
 # cbr for the Portuguese Language
 
-... add details here 
+Content for the https://pt.dev.aws.cyber-boardroom.com/ site
 
 
 ## Repo details
