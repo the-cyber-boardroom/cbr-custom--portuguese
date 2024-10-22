@@ -1,6 +1,6 @@
 ## Portuguese as a Programming language
 
-Welcome to this site that will explore the Portuguese language as a programming language using multiple GenAI LLMs.
+Olá and welcome to this site that will explore the Portuguese language as a programming language using multiple GenAI LLMs.
 
 Tools 
  - [Portuguese as Programming language](docs/demos/tools/portuguese-journalist)
