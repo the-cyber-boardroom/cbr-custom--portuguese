@@ -5,5 +5,5 @@ Content for the https://pt.dev.aws.cyber-boardroom.com/ site
 
 ## Repo details
 
-![Current Release](https://img.shields.io/badge/release-v0.1.37-blue)
+![Current Release](https://img.shields.io/badge/release-v0.1.38-blue)
 
