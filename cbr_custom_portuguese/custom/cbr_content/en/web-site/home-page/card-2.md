@@ -1,8 +1,8 @@
 ---
-title: PT Resources #2
+title: Portuguese Content
 sub_title: will go here
 action_link: docs/portuguese/index
 action_text: Go
 ---
 
-... 2nd batch of resources will go here...
+[See this page](https://pt.dev.aws.cyber-boardroom.com/web/docs/portuguese/index)
