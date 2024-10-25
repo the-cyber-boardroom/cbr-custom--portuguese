@@ -2,8 +2,8 @@
 
 Olá e bem-vindo a este site, onde vamos explorar o português como uma linguagem de programação usando vários modelos GenAI LLMs.
 
-Tools 
- - [Portuguese as Programming language](docs/demos/tools/portuguese-journalist)
+Recursos 
+ - [Português como Linguagem de Programação](docs/demos/tools/portuguese-journalist)
 
 
 <img alt="CBR Logo" src="/assets/portuguese/portuguese-flag.jpg" class="img-fluid" id="portuguese-flag" width="200px">
