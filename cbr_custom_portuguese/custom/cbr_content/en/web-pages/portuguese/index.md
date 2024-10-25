@@ -1,16 +1,16 @@
 ## Conteudo em português 
 
-Here are good chats to check out
+Veja estas conversas
 
 - [PT as a language - chat 1](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-09-27/10/3e97cd71-bfee-4c3a-912f-158411b04d9b/5453922b-f155-41d2-9c36-597c57f19f45)
 
 Live EDIT
 
-## Talk about Portuguese content
+## Temas de interesse em Portugal
 
 {{chatbot   
-    name = "Portuguese Chat Bot!" 
-    initial_message = "Hi, ask me about Portuguese content" 
+    name = "Chat Bot em português!" 
+    initial_message = "Olá, pergunte-me sobre conteúdo português" 
     initial_prompt = "Olá"
     system_prompt = "Só falar de conteúdos portugueses e só responder em português. Vamos là!"
     edit_mode = "false" 
