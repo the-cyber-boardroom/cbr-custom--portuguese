@@ -14,4 +14,5 @@ Esta conversa analisa as ameaças de cibersegurança que Portugal enfrenta em 20
 
 Cibersegurança é mais do que ter senhas fortes - uma visão geral: [https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-10-10/17/e2338bcf-6d07-4ced-b77c-1ee160f6f7e0/8e653a4a-7400-4e41-9e2d-69726ea66882]
 
+
 [edit this page](https://github.com/the-cyber-boardroom/cbr-custom--portuguese/edit/dev/cbr_custom_portuguese/custom/cbr_content/en/web-site/home-page/card-1.md)
