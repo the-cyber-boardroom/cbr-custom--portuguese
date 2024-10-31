@@ -1,6 +1,6 @@
 ---
 title: Conversas em português #1
-sub_title: Veja estas conversas com o Chat Bot
+sub_title: **Veja estas conversas com o Chat Bot**
 action_link: docs/portuguese/index
 action_text: Go
 ---
