@@ -8,7 +8,7 @@ action_text: Go
 
 
 - Uma conversa que aborda as considerações de cibersegurança para uma startup:
-- [link](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-10-09/12/a1653205-b194-4f37-bf45-3b1995eb5eb0/6c003210-be4c-4f11-8041-4989490e9ce4)
+  [link](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-10-09/12/a1653205-b194-4f37-bf45-3b1995eb5eb0/6c003210-be4c-4f11-8041-4989490e9ce4)
 
 - Esta conversa analisa as ameaças de cibersegurança que Portugal enfrenta em 2024: 
 [link](https://community.prod.aws.cyber-boardroom.com/web/chat/view/2024-10-08/16/f14b889b-2454-4cd9-87b6-fbccf30a125c/28492859-6f0b-461c-b794-933d67a03457)
